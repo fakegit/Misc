@@ -16,7 +16,7 @@
   - 5.2) Upload my-addon.xpi(null.xpi) to AMO and get signed
 - 6) Run jpm sign command to build and sign your add-on
   - 6.1) If it is an Add-ons SDK based add-on, you can skip Step 5)
-  - 6.2) If it is a Legacy add-on, you must use --xpi parameter to sign the null.xpi(or something else)
+  - 6.2) If it is a Legacy add-on, you must use --xpi argument to sign the null.xpi(or something else)
 - 7) You may need the .jpmignore to skip files that is not needed when you build an add-on
 
 #Something important
