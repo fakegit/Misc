@@ -1,0 +1,180 @@
+{
+  "preferences": [
+    {
+      "name": "buttonEnabled",
+      "type": "bool",
+      "title": "Toolbar Button",
+      "value": true
+    },
+    {
+      "name": "updateNext",
+      "type": "integer",
+      "title": "Next Auto Update Time",
+      "value": 0,
+      "hidden": true
+    },
+    {
+      "name": "updatePeriod",
+      "type": "integer",
+      "title": "Period *day*",
+      "value": 8
+    },
+    {
+      "name": "fileLocal",
+      "type": "bool",
+      "title": "Toggle Local Players",
+      "value": true
+    },
+    {
+      "name": "fileFolder",
+      "type": "directory",
+      "title": "Defined Local Directory"
+    },
+    {
+      "name": "fileServer",
+      "type": "string",
+      "title": "Defined Remote Server",
+      "value": ""
+    },
+    {
+      "name": "youkuSetting",
+      "type": "menulist",
+      "title": "Option: Youku.com",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Player"
+        },
+        {
+          "value": 2,
+          "label": "Filter"
+        },
+        {
+          "value": 0,
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "name": "tudouSetting",
+      "type": "menulist",
+      "title": "Option: Tudou.com",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Player"
+        },
+        {
+          "value": 2,
+          "label": "Filter"
+        },
+        {
+          "value": 0,
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "name": "iqiyiSetting",
+      "type": "menulist",
+      "title": "Option: iQiyi.com",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Player"
+        },
+        {
+          "value": 2,
+          "label": "Filter"
+        },
+        {
+          "value": 0,
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "name": "letvSetting",
+      "type": "menulist",
+      "title": "Option: Letv.com",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Player"
+        },
+        {
+          "value": 2,
+          "label": "Filter"
+        },
+        {
+          "value": 0,
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "name": "sohuSetting",
+      "type": "menulist",
+      "title": "Option: Sohu.com",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Player"
+        },
+        {
+          "value": 2,
+          "label": "Filter"
+        },
+        {
+          "value": 0,
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "name": "pptvSetting",
+      "type": "menulist",
+      "title": "Option: PPTV.com",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Player"
+        },
+        {
+          "value": 2,
+          "label": "Filter"
+        },
+        {
+          "value": 0,
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "name": "qqSetting",
+      "type": "menulist",
+      "title": "Option: QQ.com",
+      "value": 2,
+      "options": [
+        {
+          "value": 1,
+          "label": "Player"
+        },
+        {
+          "value": 2,
+          "label": "Filter"
+        },
+        {
+          "value": 0,
+          "label": "None"
+        }
+      ]
+    }
+  ]
+}
