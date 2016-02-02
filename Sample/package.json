@@ -44,15 +44,15 @@
       "options": [
         {
           "value": 1,
-          "label": "Player"
+          "label": "Override Flash Player"
         },
         {
           "value": 2,
-          "label": "Filter"
+          "label": "Filter XML Request"
         },
         {
           "value": 0,
-          "label": "None"
+          "label": "Original Behavior"
         }
       ]
     },
@@ -64,15 +64,15 @@
       "options": [
         {
           "value": 1,
-          "label": "Player"
+          "label": "Override Flash Player"
         },
         {
           "value": 2,
-          "label": "Filter"
+          "label": "Filter XML Request"
         },
         {
           "value": 0,
-          "label": "None"
+          "label": "Original Behavior"
         }
       ]
     },
@@ -84,15 +84,15 @@
       "options": [
         {
           "value": 1,
-          "label": "Player"
+          "label": "Override Flash Player"
         },
         {
           "value": 2,
-          "label": "Filter"
+          "label": "Filter XML Request"
         },
         {
           "value": 0,
-          "label": "None"
+          "label": "Original Behavior"
         }
       ]
     },
@@ -104,15 +104,15 @@
       "options": [
         {
           "value": 1,
-          "label": "Player"
+          "label": "Override Flash Player"
         },
         {
           "value": 2,
-          "label": "Filter"
+          "label": "Filter XML Request"
         },
         {
           "value": 0,
-          "label": "None"
+          "label": "Original Behavior"
         }
       ]
     },
@@ -124,15 +124,15 @@
       "options": [
         {
           "value": 1,
-          "label": "Player"
+          "label": "Override Flash Player"
         },
         {
           "value": 2,
-          "label": "Filter"
+          "label": "Filter XML Request"
         },
         {
           "value": 0,
-          "label": "None"
+          "label": "Original Behavior"
         }
       ]
     },
@@ -144,15 +144,15 @@
       "options": [
         {
           "value": 1,
-          "label": "Player"
+          "label": "Override Flash Player"
         },
         {
           "value": 2,
-          "label": "Filter"
+          "label": "Filter XML Request"
         },
         {
           "value": 0,
-          "label": "None"
+          "label": "Original Behavior"
         }
       ]
     },
@@ -164,15 +164,15 @@
       "options": [
         {
           "value": 1,
-          "label": "Player"
+          "label": "Override Flash Player"
         },
         {
           "value": 2,
-          "label": "Filter"
+          "label": "Filter XML Request"
         },
         {
           "value": 0,
-          "label": "None"
+          "label": "Original Behavior"
         }
       ]
     }
