@@ -22,7 +22,7 @@
 - `Update Period *day*`, the time period till the next auto update session, in `XX days`
 - `Manual Update`, ignore `Update Period`, and download the latest players immediately
 - `Offline Player`s, access and load players stored in local folder rather than those on remote server
-- `Defined Folder`, Browse... to define local folder you'd like to save the players
+- `Defined Folder`,  use `Browse...` to define the folder you'd like to save the players
   - If no folder is defined, it will return `Profiles\soWatch`
 - `Defined Server`, you can upload players to your private host and share with your friends
   - If no server is defined, it will return `15536900@bitbucket.org`
