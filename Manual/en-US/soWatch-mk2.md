@@ -15,18 +15,18 @@
 
 ##How To Use
 
-- Restore Default, restore all settings to default (some are not affected)
+- `Restore Default`, restore all settings to default (some are not affected)
   - `Next Update Time`, `Defined Folder`, `Defined Server`
-- Toolbar Button, Add/remove the soWatch! mk2 button to/from the Toolbar
-- Next Update Time, when an auto update session will be processed next time.
-- Update Period *day*, the time period till the next auto update session, in X days
-- Manual Update, ignore `Update Period`, and download the latest players immediately
-- Offline Players, access and load players stored in local folder rather than those on remote server
-- Defined Folder, Browse... to define local folder you'd like to save the players
-  - If no folder is defined, it will return Profiles\soWatch
-- Defined Server, you can upload players to your private host and share with your friends
-  - If no server is defined, it will return 15536900@bitbucket.org
-- Options per Site, options for each of the video sites, some of the preferences are binded together
-  - Player Override, use moded player(s) instead of tje original player(s)
-  - Filter XML Request, block certain XML request(s) (Default rule, switch to Player Override if any error occurs)
-  - Original Behavior, stop the functions above and restore the original behavior
+- `Toolbar Button`, Add/remove the soWatch! mk2 button to/from the Toolbar
+- `Next Update Time`, when an auto update session will be processed next time.
+- `Update Period *day*`, the time period till the next auto update session, in `X days`
+- `Manual Update`, ignore `Update Period`, and download the latest players immediately
+- `Offline Player`s, access and load players stored in local folder rather than those on remote server
+- `Defined Folder`, Browse... to define local folder you'd like to save the players
+  - If no folder is defined, it will return `Profiles\soWatch`
+- `Defined Server`, you can upload players to your private host and share with your friends
+  - If no server is defined, it will return `15536900@bitbucket.org`
+- `Option: YYYYY`, options for each of the video sites, some of the preferences are binded together
+  - `Enable mod Player`, override the original player with an modded player
+  - `Filter xml Request`, block specified XML request(s), may be buggy
+  - `Support the Website`, user should support the website which he/she visit most by perchasing its premium
