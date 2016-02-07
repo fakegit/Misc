@@ -6,16 +6,16 @@
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="10.0"
                    em:maxVersion="47.0"
-                   em:updateLink="https://github.com/jc3213/soWatch/releases/download/1.10.3/sowatch-1.3.0ESR-fx.xpi" />
-  <RDF:Description RDF:about="urn:mozilla:extension:sowatch@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAKf62rn18hL4ITqJaRtjG1bbVxxApBWpssyTmZWrJ4d8a32ueNjuKbG25vFCqFTPzDn8OG6p+MgU5IMBH24uOTGrpgZpzryLaZXkHfPwXcJvJfe67HkTwL2rYP/BOToAOHiCLxni2x8qRyS3jcnCq18Si5RjJ3fRNlEnu3YF7IF5">
-    <em:updates RDF:resource="rdf:#$oArz01"/>
-  </RDF:Description>
+                   em:updateLink="https://github.com/jc3213/soWatch/releases/download/1.4.0ESR/sowatch-1.4.0ESR-fx.xpi" />
   <RDF:Seq RDF:about="rdf:#$oArz01">
     <RDF:li RDF:resource="rdf:#$pArz01"/>
   </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:extension:sowatch@jc3213.github"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAI3aga8MiCisG0XhT+81WUNucsZU03+1HbB6Crjw2dYKqqM2i5HuhT9hCFaJgGQjFxw+TfXIgh4VMnAHOxzTwKlp0y2EvUSlyoTk29OoUAhoajFDL07pW17VhEvAPPiQq9ePvvhVdczlVcJ+rGf4VcYhtKEkMNm9rBz/aD4i8q63">
+    <em:updates RDF:resource="rdf:#$oArz01"/>
+  </RDF:Description>
   <RDF:Description RDF:about="rdf:#$pArz01"
-                   em:version="1.3.0ESR">
+                   em:version="1.4.0ESR">
     <em:targetApplication RDF:resource="rdf:#$sArz01"/>
   </RDF:Description>
 </RDF:RDF>
