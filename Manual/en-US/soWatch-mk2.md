@@ -19,7 +19,7 @@
   - `Next Update Time`, `Defined Folder`, `Defined Server`
 - `Toolbar Button`, Add/remove the soWatch! mk2 button to/from the Toolbar
 - `Next Update Time`, when an auto update session will be processed next time.
-- `Update Period *day*`, the time period till the next auto update session, in `X days`
+- `Update Period *day*`, the time period till the next auto update session, in `XX days`
 - `Manual Update`, ignore `Update Period`, and download the latest players immediately
 - `Offline Player`s, access and load players stored in local folder rather than those on remote server
 - `Defined Folder`, Browse... to define local folder you'd like to save the players
