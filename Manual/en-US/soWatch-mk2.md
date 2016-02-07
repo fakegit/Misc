@@ -15,23 +15,18 @@
 
 ##How To Use
 
-###about:addons
-- Toolbar UI, Add/remove the soWatch! mk2 button to/from the Toolbar
-- Auto Update Period, the time gap between each auto update sessions
-- Toggle Local Player, access and load players stored in local directory
-- Defined Local Directory, Browse... to define local directory
-  - If no directory is defined, it will return Profiles\soWatch directory
-- Defined Remote Server, you can upload players to your private host and share with your friends
+- Restore Default, restore all settings to default (some are not affected)
+  - `Next Update Time`, `Defined Folder`, `Defined Server`
+- Toolbar Button, Add/remove the soWatch! mk2 button to/from the Toolbar
+- Next Update Time, when an auto update session will be processed next time.
+- Update Period *day*, the time period till the next auto update session, in X days
+- Manual Update, ignore `Update Period`, and download the latest players immediately
+- Offline Players, access and load players stored in local folder rather than those on remote server
+- Defined Folder, Browse... to define local folder you'd like to save the players
+  - If no folder is defined, it will return Profiles\soWatch
+- Defined Server, you can upload players to your private host and share with your friends
   - If no server is defined, it will return 15536900@bitbucket.org
 - Options per Site, options for each of the video sites, some of the preferences are binded together
   - Player Override, use moded player(s) instead of tje original player(s)
   - Filter XML Request, block certain XML request(s) (Default rule, switch to Player Override if any error occurs)
   - Original Behavior, stop the functions above and restore the original behavior
-
-###Toolbar Button
-
-- Restore All Settings, restore all settings to default (some are not affected)
-  - Defined Local Directory, Defined Remote Server
-- Toggle Local Player, the same to about:addons
-- Run Manual Update, Ignore the Auto Update Period, and download the latest players immediately 
-- Options per Site, the same to about:addons, but only displayed in certain conditions
