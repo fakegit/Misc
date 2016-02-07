@@ -26,7 +26,7 @@
   - If no folder is defined, it will return `Profiles\soWatch`
 - `Defined Server`, you can upload players to your private host and share with your friends
   - If no server is defined, it will return `15536900@bitbucket.org`
-- `Option: YYYYY`, options for each of the video sites, some of the preferences are binded together
+- `Option: YYYY`, options for each of the video sites, some of the preferences are binded together
   - `Enable mod Player`, override the original player with an modded player
   - `Filter xml Request`, block specified XML request(s), may be buggy
   - `Support the Website`, user should support the website which he/she visit most by perchasing its premium
