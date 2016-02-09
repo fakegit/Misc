@@ -7,16 +7,16 @@
 ##Build Guide
 - 1) Install npm (aka nodejs)
 - 2) Run Node.js command prompt
-  - 2.1) Run npm install jpm -global to install jpm (currently 1.0.5)
-- 3) Download and Extract the source code to X:\
-- 4) Enter X: and cd X:\yyyyy\zzzzz to select the folder of the source code
-- 5) Run jpm xpi command to build your add-on
+  - 2.1) Run `npm install jpm -global` to install jpm (currently 1.0.5)
+- 3) Download and Extract the source code to X:\yyyyy\zzzzz
+- 4) Enter `cd /d X:\yyyyy\zzzzz` to select the folder where you have extracted the source code
+- 5) Run `jpm xpi` command to build your add-on
   - 5.1.1) Add-ons SDK based add-on will generate my-addon.xpi, and my-addon.update.rdf
   - 5.1.2) Legacy add-on will only generate null.xpi
   - 5.2) Upload my-addon.xpi(null.xpi) to AMO and get signed
-- 6) Run jpm sign command to build and sign your add-on
+- 6) Run `jpm sign` command to build and sign your add-on
   - 6.1) If it is an Add-ons SDK based add-on, you can skip Step 5)
-  - 6.2) If it is a Legacy add-on, you must use --xpi argument to sign the null.xpi(or something else)
+  - 6.2) If it is a Legacy add-on, you must use `--xpi` argument to sign the null.xpi(or something else)
 - 7) You may need the .jpmignore to skip files that is not needed when you build an add-on
 
 #Something important
