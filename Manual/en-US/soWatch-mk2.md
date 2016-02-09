@@ -9,6 +9,7 @@
 
 ##About soWatch!
 
+- soWatch! supports at least Firefox 10.0
 - soWatch! equivalent to the lesser function version of soWatch! mk2
 - soWatch! do not have either Player Auto Update function or Toolbar UI
 - If you want to use local players, you have to download or update them manually
