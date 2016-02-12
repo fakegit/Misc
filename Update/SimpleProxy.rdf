@@ -2,20 +2,20 @@
 <RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf:#$IaQMa2">
+    <RDF:li RDF:resource="rdf:#$JaQMa2"/>
+  </RDF:Seq>
   <RDF:Description RDF:about="urn:mozilla:extension:simpleproxy@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAEUsGcHq0/RLmQcf+bRnCTzZ8xs4gywKxWI2gZv43zW+tjM7KhqnXNZR5H5VJ/rpLhuGrC8/klJ1OfvObWTExqrbBUEABK8iwjbZx0hFDHq7+mMW6Fupi6XSWzC4JSjcFyRmhJTYzGl6vK3XvObOBz94l+TKacNuzU18XXV9x380">
-    <em:updates RDF:resource="rdf:#$ljQev"/>
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAAWZ04BAo4YNas8Acrd/uRj81nre5hP5XiRPurIJXtKE0Xf8EM8vXlzqU510Oc9w9qaGUZ8qcGhHEq4+umuR+ZyJFJYvKTmemlcqjruyttPd+9ouddjDcIMg6VcJeAllQy0tJFCNhoZEfNzQU/ChHVaxIzuPTSGx8ihdm7swyzaV">
+    <em:updates RDF:resource="rdf:#$IaQMa2"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$mjQev"
-                   em:version="2.1.1">
-    <em:targetApplication RDF:resource="rdf:#$pjQev"/>
+  <RDF:Description RDF:about="rdf:#$JaQMa2"
+                   em:version="2.1.2">
+    <em:targetApplication RDF:resource="rdf:#$MaQMa2"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$pjQev"
+  <RDF:Description RDF:about="rdf:#$MaQMa2"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="41.0a1"
                    em:maxVersion="44.0"
-                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/2.1.1/simple_proxy-2.1.1-fx.xpi" />
-  <RDF:Seq RDF:about="rdf:#$ljQev">
-    <RDF:li RDF:resource="rdf:#$mjQev"/>
-  </RDF:Seq>
+                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/2.1.2/simple_proxy-2.1.2-fx.xpi" />
 </RDF:RDF>
