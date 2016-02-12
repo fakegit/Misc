@@ -16,7 +16,7 @@
 
 ##关于规则表
 
-- 请阅读 <a href="https://goo.gl/3oCcuJ">如何维护规则表</a>
+- 请阅读 <a href="https://goo.gl/3oCcuJ">如何编写规则表</a>
 
 ##使用说明
 
