@@ -1,7 +1,7 @@
 ##Caution
 
 - Use at your own risk
-- It will take some time to download the players after installation, please be patient if you would switch to Player Override
+- It will take some time to download the players after installation
 
 ##How To Build
 
@@ -12,7 +12,11 @@
 - soWatch! supports at least Firefox 10.0
 - soWatch! equivalent to the lesser function version of soWatch! mk2
 - soWatch! do not have either Player Auto Update function or Toolbar UI
-- If you want to use local players, you have to download or update them manually
+- If you want to use offline players, you have to download or update them manually
+
+##About Rulelist
+
+- Read <a href="https://goo.gl/gLzfcS">How to Write Rulelist</a>
 
 ##How To Use
 
