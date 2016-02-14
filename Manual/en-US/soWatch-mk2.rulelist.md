@@ -1,9 +1,9 @@
 ##Option
 
-Pattern `[name, value, ignore, group]`
-Sample1 `["restore", "command", false, 0]`
-Sample2 `["server", "", true, null]`
-Sample3 `["update", 0, true, null]`
+Pattern `[name, value, ignore, group]`</br>
+Sample1 `["restore", "command", false, 0]`</br>
+Sample2 `["server", "", true, null]`</br>
+Sample3 `["update", 0, true, null]`</br>
 
 - `name`:> `restore`, `server` or `update` must match what it is in `package.json`
 - `value`:> `command`, `""` or `0` is the value of whose in `package.json`
