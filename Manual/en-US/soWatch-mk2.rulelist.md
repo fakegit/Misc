@@ -4,7 +4,7 @@ Pattern `[name, value, ignore, group]`</br>
 Sample `["restore", "command", false, 0]`</br>
 
 - `name`:> `restore` must match what it is in `package.json`
-- `value`:> `command` is the value of whose in `package.json`
+- `value`:> `command` must match what it is in `package.json`
   - If it is integer like `0`, it means its type is `integer` in `package.json`
   - If it is string like `""`, it means its type is `string` in `package.json`
   - If it is boolean like `true`, it means its type is `bool` in `package.json`
