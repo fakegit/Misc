@@ -5,9 +5,9 @@ Sample `["restore", "command", false, 0]`</br>
 
 - `name`:> `restore` must match what it is in `package.json`
 - `value`:> `command` must match what it is in `package.json`
-  - If it is integer like `0`, it means its type is `integer` in `package.json`
-  - If it is string like `""`, it means its type is `string` in `package.json`
-  - If it is boolean like `true`, it means its type is `bool` in `package.json`
+  - If it is `0` as integer, it means its type is `integer` in `package.json`
+  - If it is `""` as string, it means its type is `string` in `package.json`
+  - If it is `true` as boolean, it means its type is `bool` in `package.json`
   - If it is `command`, it means its type is `control` in `package.json`
     - `control` type don't have `value` in `package.json`
     - The command should be defined in `data/worker.js` as `exports.retore`, which should match its name `restore`
