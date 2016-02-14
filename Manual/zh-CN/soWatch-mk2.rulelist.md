@@ -5,9 +5,9 @@
 
 - `name`:> `restore` 必须对应 `package.json` 中的 name
 - `value`:> `command` 必须对应 `package.json` 中的 value
-  - 如果值为类似 `0` 的整数型, 那么其在 `package.json` 中的 type 为 `integer`
-  - 如果值为类似 `""` 的字符串, 那么其在 `package.json` 中的 type 为 `string`
-  - 如果值为类似 `true` 的布尔值, 那么其在 `package.json` 中的 type 为 `bool`
+  - 如果值为 `0` 这样的整数型, 那么其在 `package.json` 中的 type 为 `integer`
+  - 如果值为 `""` 这样的字符串, 那么其在 `package.json` 中的 type 为 `string`
+  - 如果值为 `true` 这样的布尔值, 那么其在 `package.json` 中的 type 为 `bool`
   - 如果值为 `command`, 那么其在 `package.json` 中的 type 为 `control`
     - `control` type 在 `package.json` 中并不包含 value
     - 相关 command 必须以 `exports.retore` 格式定义在 `data/worker.js` 中, 请务必匹配 name `restore`
