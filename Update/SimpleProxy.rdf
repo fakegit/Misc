@@ -2,20 +2,20 @@
 <RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="rdf:#$kW7Z73"
+  <RDF:Description RDF:about="rdf:#$i4GCY3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="41.0a1"
                    em:maxVersion="44.0"
-                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/2.1.3/simple_proxy-2.1.3-fx.xpi" />
-  <RDF:Description RDF:about="urn:mozilla:extension:simpleproxy@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAE7kOImDiO3TA9Ns82yO8t9sY5mEDt3F7jjRdKNuJ3CRyrAk/QL37LbvLSH0GqH0kDkv4IyUa+Curcn6P/AxShTjWv8/OhjiJ8JZ06RkToRverQQZXOopXrCjlg3szi+9GtnZkHppe7XLWyk91HnqntVb12+v5SEO4u/jr16aY7I">
-    <em:updates RDF:resource="rdf:#$gW7Z73"/>
+                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/2.2.0/simple_proxy-2.2.0-fx.xpi" />
+  <RDF:Description RDF:about="rdf:#$f4GCY3"
+                   em:version="2.2.0">
+    <em:targetApplication RDF:resource="rdf:#$i4GCY3"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$hW7Z73"
-                   em:version="2.1.3">
-    <em:targetApplication RDF:resource="rdf:#$kW7Z73"/>
-  </RDF:Description>
-  <RDF:Seq RDF:about="rdf:#$gW7Z73">
-    <RDF:li RDF:resource="rdf:#$hW7Z73"/>
+  <RDF:Seq RDF:about="rdf:#$e4GCY3">
+    <RDF:li RDF:resource="rdf:#$f4GCY3"/>
   </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:extension:simpleproxy@jc3213.github"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAJ3Fp+OlNQzDszDLL4NPYfQyWMb/xVWeQ3UXqZmQzi+SWeK3PytHweFfjLP5G3f8h4nsusxBxQNSCiIhSgIfwsBLu6H9QxCTmLqmCKH9wuEgedvrcbKMgPH6zXbjFCS7WX8AuZW94rL0+ZKoswyX25JBWYWOvXzQrNh7c4tayFIt">
+    <em:updates RDF:resource="rdf:#$e4GCY3"/>
+  </RDF:Description>
 </RDF:RDF>
