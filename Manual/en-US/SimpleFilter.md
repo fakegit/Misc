@@ -18,7 +18,7 @@
     - 1.1.4) `Suffix` # is only available for Blocking Rule, which is slower but more compatible
     - 1.1.5) `Suffix` > is only available for Redirect Rule, which means "redirect to"
     - 1.1.6) `Suffix` @ is only available for Modify Headers Rule
-  - 1.2) You'd better have a look into the samples <a href="https://goo.gl/veiWJZ">Simple Filter Sample List</a>
+  - 1.2) You'd better have a look into <a href="https://goo.gl/veiWJZ">Simple Filter Sample List</a>
 - 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
   - 2.1) For example, <a href="https://goo.gl/veiWJZ">Simple Filter Sample List</a>
   - 2.2) Subscription(s) will be updated in 4 days
