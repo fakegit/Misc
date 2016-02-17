@@ -1,8 +1,10 @@
-$!*://*.google.com/*#true
+$!*://*.google.com/*
+
+$*://*.atm.youku.com/v*#
 
 ^*://*.bing.com/*>https://www.google.com/
 
-@*://*.baidu.com/*<Referer=https://www.google.com/|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+<*://*.baidu.com/*@Referer=https://www.google.com/|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 
 #*://*.google.com/*
 
