@@ -2,20 +2,20 @@
 <RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="rdf:#$i4GCY3"
+  <RDF:Seq RDF:about="rdf:#$2PHLE3">
+    <RDF:li RDF:resource="rdf:#$3PHLE3"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$6PHLE3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="41.0a1"
-                   em:maxVersion="44.0"
-                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/2.2.0/simple_proxy-2.2.0-fx.xpi" />
-  <RDF:Description RDF:about="rdf:#$f4GCY3"
-                   em:version="2.2.0">
-    <em:targetApplication RDF:resource="rdf:#$i4GCY3"/>
-  </RDF:Description>
-  <RDF:Seq RDF:about="rdf:#$e4GCY3">
-    <RDF:li RDF:resource="rdf:#$f4GCY3"/>
-  </RDF:Seq>
+                   em:maxVersion="45.*"
+                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/2.2.1/simple_proxy-2.2.1-fx.xpi" />
   <RDF:Description RDF:about="urn:mozilla:extension:simpleproxy@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAJ3Fp+OlNQzDszDLL4NPYfQyWMb/xVWeQ3UXqZmQzi+SWeK3PytHweFfjLP5G3f8h4nsusxBxQNSCiIhSgIfwsBLu6H9QxCTmLqmCKH9wuEgedvrcbKMgPH6zXbjFCS7WX8AuZW94rL0+ZKoswyX25JBWYWOvXzQrNh7c4tayFIt">
-    <em:updates RDF:resource="rdf:#$e4GCY3"/>
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBABvC4+S3vgZ5U0ondNOQXv848+ZmtfWbR7BgACm9NLGdI80C/8v7i3oLVMmtBD7tVsIo5OVKeqtDgP57Wk3HinvUVoLJr20GslDHuBtzT6w/0IgJe3gpEYTcM2uyHDf4Nfk1TlADqVuQiDoKaZs0tj32iQ2KCjy2qjgFB/Fx3Jd4">
+    <em:updates RDF:resource="rdf:#$2PHLE3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$3PHLE3"
+                   em:version="2.2.1">
+    <em:targetApplication RDF:resource="rdf:#$6PHLE3"/>
   </RDF:Description>
 </RDF:RDF>
