@@ -2,20 +2,20 @@
 <RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="rdf:#$TegYr1"
-                   em:version="1.12.5">
-    <em:targetApplication RDF:resource="rdf:#$WegYr1"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:extension:sowatchmk2@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBACzbrmVbzdIH7x2FksEv2gY+noOGOysTo1goAxHUR8F4HQ4xx/qTieviVapZ+/Zh04kF+1zVaECjs1ZIM6KBxUp2AzurGQew92EOU6UOcPwmILlj3dDmFnNZmdYr7NUtN4YVMcuClYtoS/1cukCUkRXixIuw9hcOwquUjAW6f2nw">
-    <em:updates RDF:resource="rdf:#$SegYr1"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$WegYr1"
+  <RDF:Description RDF:about="rdf:#$ZXdzb3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="41.0a1"
                    em:maxVersion="45.*"
-                   em:updateLink="https://github.com/jc3213/soWatch-mk2/releases/download/1.12.5/sowatch_mk2-1.12.5-fx.xpi" />
-  <RDF:Seq RDF:about="rdf:#$SegYr1">
-    <RDF:li RDF:resource="rdf:#$TegYr1"/>
+                   em:updateLink="https://github.com/jc3213/soWatch-mk2/releases/download/1.12.6/sowatch_mk2-1.12.6-fx.xpi" />
+  <RDF:Description RDF:about="rdf:#$WXdzb3"
+                   em:version="1.12.6">
+    <em:targetApplication RDF:resource="rdf:#$ZXdzb3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$VXdzb3">
+    <RDF:li RDF:resource="rdf:#$WXdzb3"/>
   </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:extension:sowatchmk2@jc3213.github"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAEElyw0YXpaYmfchONGkWLUOdAayVMtbdeQvXhOQUdSKZsx7bhVEVrgPG+k5AG1ssqtj9jJbF+vsTVYLGN/XGgsLZgV3cMb9vff6IreiMiEBLb1Tru8Y0aUzqXBSHJK9UZD2GJcdoTBLGH+mrwea3u1Y7US6r2ITOkfUliF0uA9W">
+    <em:updates RDF:resource="rdf:#$VXdzb3"/>
+  </RDF:Description>
 </RDF:RDF>
