@@ -12,12 +12,13 @@
 - 1) Simple Filter Rule contains `Prefix`, `Sub-Prefix`, `Match Pattern`, `Suffix`, `Option String`
 <p><img src="http://i66.tinypic.com/ztgdcn.png"></p>
     - 1.1.0) User can use <a href="https://goo.gl/vt6Jj4">Simple Converter</a> to convert Adblock Plus Rulelist
-    - 1.1.1) `Prefix` $  determine Blocking Rule, `Prefix` ^ determine Redirect Rule, `Prefix` < determine Modify Headers Rule
+    - 1.1.1) `Prefix` $ determine Blocking Rule, `Prefix` > determine Redirect Rule, `Prefix` < determine Modify Headers Rule, `Prefix` # determine Proxy Rule
     - 1.1.2) `Sub-Prefix` ! to determine if the rule is to be matched, `Sub-Prefix` ? to determine if the rule is whitelisted
-    - 1.1.3) Read about how to write <a href="https://goo.gl/sZzTgN">`Match Pattern`</a>
-    - 1.1.4) `Suffix` # is only available for Blocking Rule, which is slower but more compatible
-    - 1.1.5) `Suffix` > is only available for Redirect Rule, which means "redirect to"
-    - 1.1.6) `Suffix` @ is only available for Modify Headers Rule
+    - 1.1.3) `Prefix` ## to define the Proxy Server you want to use
+    - 1.1.4) Read about how to write <a href="https://goo.gl/sZzTgN">`Match Pattern`</a>
+    - 1.1.5) `Suffix` # is only available for Blocking Rule, which is slower but more compatible
+    - 1.1.6) `Suffix` ^ is only available for Redirect Rule, which means "redirect to"
+    - 1.1.7) `Suffix` @ is only available for Modify Headers Rule
   - 1.2) You'd better have a look into <a href="https://goo.gl/veiWJZ">Simple Filter Sample List</a>
 - 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
   - 2.1) For example, <a href="https://goo.gl/veiWJZ">Simple Filter Sample List</a>
