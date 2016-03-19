@@ -2,20 +2,20 @@
 <RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Seq RDF:about="rdf:#$hdgcb1">
-    <RDF:li RDF:resource="rdf:#$idgcb1"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="rdf:#$ldgcb1"
+  <RDF:Description RDF:about="rdf:#$wvsmE3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="38.0a1"
-                   em:maxVersion="45.*"
-                   em:updateLink="https://github.com/jc3213/SimpleConverter/releases/download/1.1.4/simple_converter-1.1.4-fx.xpi" />
+                   em:maxVersion="*"
+                   em:updateLink="https://github.com/jc3213/SimpleConverter/releases/download/1.2.0/simple_converter-1.2.0-fx.xpi" />
   <RDF:Description RDF:about="urn:mozilla:extension:simpleconverter@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAK9kdyjP5HlnBwmZPBV0xYwXwEtVdrx3xBq08rAh3agmDJfl0Db+sfn1/aMWlT2VxC4XTRt0tUxd/dmKWcUFAeXGTTmVG8XVao/NB7fnF/EKd4ok72JpkprQd7RrLjp36nPVCNLDLx9qsufXTxLnQfhs5bzcXpH713Xptj+ioFs5">
-    <em:updates RDF:resource="rdf:#$hdgcb1"/>
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBACnmxzImYub6GcM4MLj2pGjFvLlQdQpp2UR34X4XrT2FLMNMSDnLixdOYGW/esomkkI4PzhRo0sLXSAhEDP5gRgrR2l/Ti1KZzzDvbYQsLzBYRvAWCQKDWNz0zoQ3U3NFFkESCk6hlfmsJGBcN1QamfvU2Ow1/F03j5ibbRuIZgk">
+    <em:updates RDF:resource="rdf:#$svsmE3"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$idgcb1"
-                   em:version="1.1.4">
-    <em:targetApplication RDF:resource="rdf:#$ldgcb1"/>
+  <RDF:Description RDF:about="rdf:#$tvsmE3"
+                   em:version="1.2.0">
+    <em:targetApplication RDF:resource="rdf:#$wvsmE3"/>
   </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$svsmE3">
+    <RDF:li RDF:resource="rdf:#$tvsmE3"/>
+  </RDF:Seq>
 </RDF:RDF>
