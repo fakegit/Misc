@@ -1,6 +1,6 @@
 ##Caution
 
-- Use at Userr own risk
+- Use at your own risk
 
 ##How To Build
 
@@ -13,7 +13,7 @@
 <p><img src="http://i66.tinypic.com/ztgdcn.png"></p>
     - 1.1.0) User can use <a href="https://goo.gl/vt6Jj4">Simple Converter</a> to convert Adblock Plus Rulelist
     - 1.1.1) `Prefix` $  determine Blocking Rule, `Prefix` ^ determine Redirect Rule, `Prefix` < determine Modify Headers Rule
-    - 1.1.2) `Sub-Prefix` ! to determine if the rule is whitelisted
+    - 1.1.2) `Sub-Prefix` ! to determine if the rule is to be matched, `Sub-Prefix` ? to determine if the rule is whitelisted
     - 1.1.3) Read about how to write <a href="https://goo.gl/sZzTgN">`Match Pattern`</a>
     - 1.1.4) `Suffix` # is only available for Blocking Rule, which is slower but more compatible
     - 1.1.5) `Suffix` > is only available for Redirect Rule, which means "redirect to"
