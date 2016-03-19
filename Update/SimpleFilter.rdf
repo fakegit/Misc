@@ -2,20 +2,20 @@
 <RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Seq RDF:about="rdf:#$0EXNA3">
-    <RDF:li RDF:resource="rdf:#$1EXNA3"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="urn:mozilla:extension:simplefilter@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAMJZ3wHuMoEh8Gzv9S80A4IHfcIGxk0lZYVoD87dqgsUkbf9/fzgzzlu1Aj/86AbC1DRKnlB1TV5PEcu4Bzt/CeeQQVmWDhDLaU+ZOzwdrIeaBNHkP03Nk52H0I+vGKxKHDw72QLVrPIQCTRf1/nEDNBNA9Jiycq0uIS9ingAUQX">
-    <em:updates RDF:resource="rdf:#$0EXNA3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$4EXNA3"
+  <RDF:Description RDF:about="rdf:#$GvsmE3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="41.0a1"
-                   em:maxVersion="45.*"
-                   em:updateLink="https://github.com/jc3213/SimpleFilter/releases/download/1.4.1/simple_filter-1.4.1-fx.xpi" />
-  <RDF:Description RDF:about="rdf:#$1EXNA3"
-                   em:version="1.4.1">
-    <em:targetApplication RDF:resource="rdf:#$4EXNA3"/>
+                   em:maxVersion="*"
+                   em:updateLink="https://github.com/jc3213/SimpleFilter/releases/download/1.5.0/simple_filter-1.5.0.1-fx.xpi" />
+  <RDF:Description RDF:about="rdf:#$DvsmE3"
+                   em:version="1.5.0.1">
+    <em:targetApplication RDF:resource="rdf:#$GvsmE3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$CvsmE3">
+    <RDF:li RDF:resource="rdf:#$DvsmE3"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:extension:simplefilter@jc3213.github"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAMDKf6439o+F9q2LtTJu2wtlL+obNmEpOOtDAWEsh7VgzwL0u2krq775XPrbuDHmgta3e9di44GQB4S/ObaSNHwedr19AEpsB7D4maFScwwYFi/yoMLIfN4rHjdI/RZJJ1U+DU7rsv9A1aJY8GtZ/6lBLCVDAASTzm3LNfT6nnOC">
+    <em:updates RDF:resource="rdf:#$CvsmE3"/>
   </RDF:Description>
 </RDF:RDF>
