@@ -8,3 +8,7 @@
   **若没有请在本行前面添加`#`，并同时在`rpc-secure=true`前添加`#`**
 
 - 请将`rpc-secret=aria2`中的`aira2`修改为自己使用的Token密钥
+
+- 当Aria2无法启动时请尝试使用`session.bat`清理任务列表
+
+  **部分任务因为文件丢失可能导致Aria2无法启动，或启动后无法监听RPC请求**
