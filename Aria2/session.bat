@@ -1,0 +1,3 @@
+@ECHO OFF
+PUSHD %~DP0
+ECHO OFF>aria2.session
