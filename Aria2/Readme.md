@@ -1,5 +1,7 @@
 
 - 通过`cmd\Enable.bat`添加开机启动项并同时启动Aria2及Web UI
+  
+  **请Pin住已启动好的Web UI标签页方便使用**
 
 - 通过`cmd\Disable.bat`删除开机启动项并终止Aria2
 
