@@ -9,11 +9,11 @@
 
 - 请按照说明对`aria2.conf`进行自定义修改，否则aria2可能无法在你的电脑上工作
 
-  -- 将`dir=Z:\Aria2`中的`Z:\Aria2`改为自己的下载路径
+  * 将`dir=Z:\Aria2`中的`Z:\Aria2`改为自己的下载路径
 
-  -- 若想加密RPC请求的传输请将`rpc-certificate=aria2.p12`中的`aria2.p12`改为自己的个人证书路径
+  * 若想加密RPC请求的传输请将`rpc-certificate=aria2.p12`中的`aria2.p12`改为自己的个人证书路径
 
      **若不想加密RPC请求或没有个人证书，请在本行前面添加`#`，并同时在`rpc-secure=true`前添加`#`**
 
-  -- 请将`rpc-secret=aria2`中的`aira2`修改为自己使用的Token密钥，以防止被他人滥用
+  * 请将`rpc-secret=aria2`中的`aira2`修改为自己使用的Token密钥，以防止被他人滥用
 
