@@ -1,3 +1,6 @@
+
+
+
 Function CurrentPath()
     strPath = Wscript.ScriptFullName
     Set objFSO = CreateObject("Scripting.FileSystemObject")
@@ -23,9 +26,9 @@ strCurrentPath = CurrentPath()
 Dim strArgs
 quo = """"
 
-strExecutable = quo & strCurrentPath & "\aria2\aria2c.exe" & quo
-strArgs = strExecutable & " --conf=aria2.conf"
+strExecutable = quo & strCurrentPath & "\aria2.bat" & quo
+'strArgs = strExecutable
 'WScript.Echo strArgs
 
 Set oShell = CreateObject ("Wscript.Shell")
-oShell.Run strArgs, false
+oShell.Run strExecutable, false
