@@ -14,3 +14,4 @@ appExecutable = """" & CurrentPath() & "\aria2.bat" & """"
 
 Set oShell = CreateObject ("Wscript.Shell")
 oShell.Run appExecutable, false
+
