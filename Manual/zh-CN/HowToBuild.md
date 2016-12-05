@@ -5,7 +5,7 @@
 - 传统旧式附加组件不包含 package.json 文件, 而且一般默认包含 install.rdf 文件, 无需重启的扩展包含 bootstrap.js 文件
 
 ##操作步骤
-- 1) 安装`npm (别称 nodejs)
+- 1) 安装`npm` (别称 nodejs)
 - 2) 运行 Node.js command prompt
   - 2.1) 运行 `npm install jpm -global` 以安装 jpm (目前 1.0.5)
 - 3) 下载并解压源代码到 X:\yyyyy\zzzzz
