@@ -5,7 +5,7 @@
 - Legacy Add-ons does not contain package.json , but do contain install.rdf , and bootstrap.js for restartless add-ons
 
 ##Build Guide
-- 1) Install npm (aka nodejs)
+- 1) Install `npm` (aka nodejs)
 - 2) Run Node.js command prompt
   - 2.1) Run `npm install jpm -global` to install jpm (currently 1.0.5)
 - 3) Download and Extract the source code to X:\yyyyy\zzzzz
