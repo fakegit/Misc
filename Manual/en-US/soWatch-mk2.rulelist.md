@@ -5,10 +5,10 @@ Sample `[ "restore", null, "command", false, 0 ]`</br>
 
 - `name`:> `restore` must match what it is in `package.json`
 - `value` & `type`:> 
-  - If it is `0` as integer, it means its type is `integer` in `package.json`
-  - If it is `"abc"` as string, it means its type is `string` in `package.json`
-  - If it is `true` as boolean, it means its type is `bool` in `package.json`
-  - If it is `command`, it means its type is `control` in `package.json`
+  - If value `0` and type `"integer"`, it means its type is `integer` in `package.json`
+  - If value `"abc"` and type `"string"`, it means its type is `string` in `package.json`
+  - If value `true` and type `"boolean"`, it means its type is `bool` in `package.json`
+  - If value `null` and type `"command"`, it means its type is `control` in `package.json`
     - `control` type don't have `value` in `package.json`
     - The command should be defined in `data/worker.js` as `exports.retore`, which should match its name `restore`
 - `ignore`:> determines if it will be reset to default by `Restore Default` command
