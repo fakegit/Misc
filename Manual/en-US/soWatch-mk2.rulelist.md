@@ -19,8 +19,8 @@ Sample `[ "restore", null, "command", false, 0 ]`</br>
 - `order`:> The order of the preferences in `Option` will affect the sort order in the toolbar button
 
 ##Website
-[ name, value, host, [ rules ] ]
-[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.youku.com/*/v/swf/loader*.swf*"], ["player", "player.swf", 0, "http://static.youku.com/*/v/swf/*player*.swf*"], ["filter", 1, "http://*.atm.youku.com/v*?vip=*"] ]
+Pattern `[ name, value, host, [ rules ] ]`</br>
+Sample `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.youku.com/*/v/swf/loader*.swf*"], ["player", "player.swf", 0, "http://static.youku.com/*/v/swf/*player*.swf*"], ["filter", 1, "http://*.atm.youku.com/v*?vip=*"] ]`</br>
 
 - `name`:> `youku` must match what it is in `package.json`
 - `value`:> `1` means enable player rule, `2` means enable filter rule, `0` means disable all rules
@@ -35,6 +35,8 @@ Sample `[ "restore", null, "command", false, 0 ]`</br>
     - `pattern`:> matching pattern of the target, could be regular expression or string with wildcard
 
 ##Wrapper
+Pattern `[ type, major, [minor] ]`</br>
+Sample `[ "fileter", "youku", ["tudou"] ]</br>
 
 - `type`:> which rule should be synchronized between target sites
 - `major`:> the base Website[name], the other sites depends on its preference
