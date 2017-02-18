@@ -5,7 +5,7 @@
 
 - `name`:> `restore` 必须对应 `package.json` 中的 name
 - `value` & `type`:> `command` 必须对应 `package.json` 中的 value
-  - 如果值为 `0` 类型为 `"integer"` , 那么其在 `package.json` 中的 type 为 `integer`
+  - 如果值为 `0` 类型为 `"integer"` , 那么其在 `package.json` 中的 type 为 `integer`
   - 如果值为 `"abc"` 类型为 `"string"` , 那么其在 `package.json` 中的 type 为 `string`
   - 如果值为 `true` 类型为 `"boolean"` , 那么其在 `package.json` 中的 type 为 `bool`
   - 如果值为 `null` 类型为 `"command"` , 那么其在 `package.json` 中的 type 为 `control`
