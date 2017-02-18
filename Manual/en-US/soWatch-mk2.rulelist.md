@@ -36,7 +36,7 @@ Sample `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.
 
 ##Wrapper
 Pattern `[ type, major, [minor] ]`</br>
-Sample `[ "fileter", "youku", ["tudou"] ]</br>
+Sample `[ "fileter", "youku", ["tudou"] ]`</br>
 
 - `type`:> which rule should be synchronized between target sites
 - `major`:> the base Website[name], the other sites depends on its preference
