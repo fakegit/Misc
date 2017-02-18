@@ -27,11 +27,11 @@ Sample `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.
 - `host`:> `youku.com` means the host of "http://www.youku.com"
 - `rule`:> Array of rule patterns.
   - `type`:> `player`:> means this rule is a player rule
-    - `file`:> limitied to player rule, define the file name of the modded flash player, which is hosted on a remote server
+    - `file`:> define the file name of the modded flash player, which is hosted on a remote server
     - `nofile`:> `1` to enable, `0` to disable, the value of `file` must be a accessable remote link
     - `pattern`:> matching pattern of the target, could be regular expression or string with wildcard
   - `type`:> `filter`:> means this rule is a filter rule
-    - `secured`:> `1` to enable, `0` to disable, slower when enabled, but more compatible
+    - `secured`:> `1` to enable, `0` to disable, slower when enabled, but more compatible
     - `pattern`:> matching pattern of the target, could be regular expression or string with wildcard
 
 ##Wrapper
