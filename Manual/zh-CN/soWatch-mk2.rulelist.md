@@ -19,25 +19,25 @@
 - `order`:> `Option` 中的设置的顺序将影响其在工具栏按钮中的顺序
 
 ##Website
-Pattern `[ name, value, host, [ rules ] ]`</br>
-Sample `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.youku.com/*/v/swf/loader*.swf*"], ["player", "player.swf", 0, "http://static.youku.com/*/v/swf/*player*.swf*"], ["filter", 1, "http://*.atm.youku.com/v*?vip=*"] ]`</br>
+格式 `[ name, value, host, [ rules ] ]`</br>
+样例 `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.youku.com/*/v/swf/loader*.swf*"], ["player", "player.swf", 0, "http://static.youku.com/*/v/swf/*player*.swf*"], ["filter", 1, "http://*.atm.youku.com/v*?vip=*"] ]`</br>
 
-- `name`:> `youku` must match what it is in `package.json`
-- `value`:> `1` means enable player rule, `2` means enable filter rule, `0` means disable all rules
-- `host`:> `youku.com` means the host of `http://www.youku.com`
-- `rule`:> Array of rule patterns.
-  - `type`:> `player`:> means this rule is a player rule
-    - `file`:> define the file name of the modded flash player, which is hosted on a remote server
-    - `nofile`:> `1` to enable, `0` to disable, the value of `file` must be a accessable remote link
-    - `pattern`:> matching pattern of the target, could be regular expression or string with wildcard
-  - `type`:> `filter`:> means this rule is a filter rule
-    - `secured`:> `1` to enable, `0` to disable, slower when enabled, but more compatible
-    - `pattern`:> matching pattern of the target, could be regular expression or string with wildcard
+- `name`:> `youku` 必须对应 `package.json`
+- `value`:> `1` 表示启用 player 规则, `2` 表示启用 filter 规则, `0` 表示禁用所有规则
+- `host`:> `youku.com` 是 `http://www.youku.com` 的 Host
+- `rule`:> 规则以 数组 形式存在
+  - `type`:> `player`:> 代表本规则为 player 规则
+    - `file`:> 指代 播放器 的文件名，它必须被储存在远程服务器上。
+    - `fullpath`:> `1` 启用, `0` 禁用, 若启用 `file` 必须必须是完整的路径
+    - `pattern`:> 匹配规则，可以是正则表达式，也可以是含有 * 的字符串
+  - `type`:> `filter`:> 代表本规则为 filter 规则
+    - `secured`:> `1` 启用, `0` 禁用, 若启用 过滤速度会变慢但兼容更好
+    - `pattern`:> 匹配规则，可以是正则表达式，也可以是含有 * 的字符串
 
 ##Wrapper
-Pattern `[ type, major, [minor] ]`</br>
-Sample `[ "fileter", "youku", ["tudou"] ]`</br>
+格式 `[ type, major, [minor] ]`</br>
+样例 `[ "fileter", "youku", ["tudou"] ]`</br>
 
-- `type`:> which rule should be synchronized between target sites
-- `major`:> the base Website[name], the other sites depends on its preference
-- `minor`:> Array of Website[name], defines which sites should by sychronized to the major
+- `type`:> 指代将会被同步修改的规则的种类
+- `major`:> 参照物 Website[name], 其他网站的指定类型规则将同步被修改
+- `minor`:> 对象物 Website[name], 数组类型 用于指定规则会被同步修改的目标
