@@ -5,7 +5,7 @@
 
 ##创建扩展
 
-- 请阅读 <a href="https://goo.gl/9aM7i7">如何创建扩展</a>
+- 请阅读 [如何创建扩展](https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/HowToBuild.md)
 
 ##关于soWatch!
 
@@ -16,7 +16,7 @@
 
 ##关于规则表
 
-- 请阅读 <a href="https://goo.gl/3oCcuJ">如何编写规则表</a>
+- 请阅读 [如何编写规则表](https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/soWatch-mk2.rulelist.md)
 
 ##使用说明
 
