@@ -1,10 +1,10 @@
 ##Caution
 
-- Use at Userr own risk
+- Use at your own risk
 
 ##How To Build
 
-- Read <a href="https://goo.gl/NZlNRH">Build an Add-on</a>
+- Read [Build an Add-on](https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md)
 
 ##How to use
 
@@ -18,7 +18,7 @@
     - 2.2.2) socks support SOCKS V5 protocol
     - 2.2.3) socks4 support SOCKS V4 protocol
 - 3) Use remote address http:// or https:// to subscribe proxy list
-  - 3.1) For example, <a href="https://goo.gl/ryMotb">GFWList</a> (branch ESR)
+  - 3.1) For example, [GFWList](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt) (branch ESR)
   - 3.2) Subscription(s) will be updated in 4 days
 - 4) User can address absolute path using "Browse..." button in about:addons
 - 5) User can address relative path using file.txt to access the rulelist in Profile\SimpleProxy\file.txt
