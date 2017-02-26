@@ -5,7 +5,7 @@
 
 ##How To Build
 
-- Read <a href="https://goo.gl/NZlNRH">Build an Add-on</a>
+- Read [Build an Add-on](https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md)
 
 ##About soWatch!
 
@@ -16,7 +16,7 @@
 
 ##About Rulelist
 
-- Read <a href="https://goo.gl/gLzfcS">How to Write Rulelist</a>
+- Read [How to Write Rulelist](https://github.com/jc3213/Misc/blob/master/Manual/en-US/soWatch-mk2.rulelist.md)
 
 ##How To Use
 
