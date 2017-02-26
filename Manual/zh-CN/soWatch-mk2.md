@@ -10,9 +10,10 @@
 ##关于soWatch!
 
 - soWatch! 支持最低 Firefox 10.0
-- soWatch! 等同于 soWatch! mk2 的劣化版本
+- soWatch! 等同于 soWatch! mk2 的劣化版本，版本更新也更缓慢
 - soWatch! 不包含工具栏图标跟播放器的自动更新功能
 - 如需使用离线播放器，你必须手动下载或更新播放器
+- 你可以修改 soWatch! 代码使其功能更接近于 soWatch! mk2
 
 ##关于规则表
 
