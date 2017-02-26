@@ -24,7 +24,7 @@
 ##Add-ons SDK based Add-ons
 - 1) You must change the UUID of the add-on in package.json
 - 2) You must edit or delete the updateURL, updateLink, and updateKey keys in package.json
-  - 2.1) If updateKey is defined, you have to edit the version and updateLink keys in <a href="https://goo.gl/hHAx3m">Update.rdf</a> and sign it with McCoy
+  - 2.1) If updateKey is defined, you have to edit the version and updateLink keys in [Update.rdf](https://raw.githubusercontent.com/jc3213/Misc/master/Sample/Update.rdf) and sign it with McCoy
 
 <p><img src="http://i66.tinypic.com/ml5abm.png"></p>
 
