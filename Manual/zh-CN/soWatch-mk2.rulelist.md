@@ -24,7 +24,7 @@ Sample `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.
 
 - `name`:> `youku` must match what it is in `package.json`
 - `value`:> `1` means enable player rule, `2` means enable filter rule, `0` means disable all rules
-- `host`:> `youku.com` means the host of "http://www.youku.com"
+- `host`:> `youku.com` means the host of `http://www.youku.com`
 - `rule`:> Array of rule patterns.
   - `type`:> `player`:> means this rule is a player rule
     - `file`:> define the file name of the modded flash player, which is hosted on a remote server
