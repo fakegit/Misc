@@ -4,7 +4,7 @@
 
 ##创建扩展
 
-- 请阅读 <a href="https://goo.gl/9aM7i7">如何创建扩展</a>
+- 请阅读 [如何创建扩展](https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/HowToBuild.md)
 
 ## 使用说明
 
@@ -15,13 +15,13 @@
     - 1.1.1) `前缀` $ 决定 拦截规则, `前缀` > 决定 重定向规则, `前缀` < 决定 修改请求头规则, `前缀` # 决定 代理规则
     - 1.1.2) `次前缀` ! 决定规则是否将要被匹配, `次前缀` ? 决定规则是否为白名单
     - 1.1.3) `前缀` ## 将定义你所要使用的代理服务器 (请参考Simple Proxy服务器格式)
-    - 1.1.4) 阅读资料, 如何编写 <a href="https://goo.gl/sZzTgN">`匹配对象`</a>
+    - 1.1.4) 阅读资料, 如何编写 [匹配模式](https://developer.mozilla.org/zh-CN/Add-ons/WebExtensions/Match_patterns)
     - 1.1.5) `后缀` # 仅适用于 拦截规则, 速度稍慢但是效果更好
     - 1.1.6) `后缀` ^ 仅适用于 重定向规则, 其意味着 重定向至
     - 1.1.7) `后缀` @ 仅适用于 修改请求头规则
-  - 1.2) 你最好阅读下 <a href="https://goo.gl/veiWJZ">Simple Filter 规则例表</a>
+  - 1.2) 你最好阅读下 [Simple Filter 规则例表](https://raw.githubusercontent.com/jc3213/Misc/master/Sample/SimpleFilter.txt)
 - 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
-  - 2.1） 例如 <a href="https://goo.gl/Nf0B0a">Simple Filter 规则表 (由卡饭论坛@523860169转换自cjx规则)</a>
+  - 2.1） 例如 [Simple Filter 规则例表](https://raw.githubusercontent.com/jc3213/Misc/master/Sample/SimpleFilter.txt)
   - 2.2） 订阅规则每4天自动更新一次
 - 3） 可以通过 about:addons 设置界面的 `浏览...` 按钮来指定绝对路径中的文件
 - 4） 可以通过 `file.txt` 来访问相对路径 `Profile\SimpleFilter\file.txt` 中的规则
