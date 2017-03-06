@@ -1,7 +1,7 @@
 ##Option
 
-Pattern `[ name, value, type, reset, group ]`</br>
-Sample `[ "restore", null, "command", false, 0 ]`</br>
+Pattern `[name, value, type, reset, group]`</br>
+Sample `["restore", null, "command", null, 0]`</br>
 
 - `name`:> `restore` must match what it is in `package.json`
 - `value` & `type`:> 
