@@ -1,6 +1,6 @@
 ##Option
 
-Pattern `[ name, value, type, ignore, group ]`</br>
+Pattern `[ name, value, type, reset, group ]`</br>
 Sample `[ "restore", null, "command", false, 0 ]`</br>
 
 - `name`:> `restore` must match what it is in `package.json`
@@ -11,8 +11,8 @@ Sample `[ "restore", null, "command", false, 0 ]`</br>
   - If value `null` and type `"command"`, it means its type is `control` in `package.json`
     - `control` type don't have `value` in `package.json`
     - The command should be defined in `data/worker.js` as `exports.retore`, which should match its name `restore`
-- `ignore`:> determines if it will be reset to default by `Restore Default` command
-  - Don't set it to `true` if its type is `command`
+- `reset`:> determines if it will be reset to default by `Restore Default` command
+  - Set it to `null` if its type is `command`
 - `group`:> determines the menuitem groups in toolbar button
   - If its `value` is string or integer, set it to `null`
   - Groups in toolbar button will be separated like: group0{menuitem1, menuitem3} | group1{menuitem2} | group2{menuitem0}
