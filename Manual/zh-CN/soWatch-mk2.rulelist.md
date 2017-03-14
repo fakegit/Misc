@@ -26,13 +26,13 @@
 - `value`:> `1` 表示启用 player 规则, `2` 表示启用 filter 规则, `0` 表示禁用所有规则
 - `host`:> `youku.com` 是 `http://www.youku.com` 的 Host
 - `rule`:> 规则以 数组 形式存在
-  - `type`:> `player`:> 代表本规则为 player 规则
-    - `file`:> 指代 播放器 的文件名，它必须被储存在远程服务器上。
-    - `fullpath`:> `1` 启用, `0` 禁用, 若启用 `file` 必须必须是完整的路径
-    - `pattern`:> 匹配规则，可以是正则表达式，也可以是含有 * 的字符串
-  - `type`:> `filter`:> 代表本规则为 filter 规则
-    - `secured`:> `1` 启用, `0` 禁用, 若启用 过滤速度会变慢但兼容更好
-    - `pattern`:> 匹配规则，可以是正则表达式，也可以是含有 * 的字符串
+  - `type`:> `player`:> 代表本规则为 player 规则
+    - `file`:> 指代 播放器 的文件名，它必须被储存在远程服务器上。
+    - `fullpath`:> `1` 启用, `0` 禁用, 若启用 `file` 必须必须是完整的路径
+    - `pattern`:> 匹配规则，可以是正则表达式，也可以是含有 * 的字符串
+  - `type`:> `filter`:> 代表本规则为 filter 规则
+    - `secured`:> `1` 启用, `0` 禁用, 若启用 过滤速度会变慢但兼容更好
+    - `pattern`:> 匹配规则，可以是正则表达式，也可以是含有 * 的字符串
 
 ##Wrapper
 格式 `[ type, major, [minor] ]`</br>
