@@ -1,4 +1,4 @@
-##Option
+## Option
 
 Pattern `[name, value, type, reset, group]`</br>
 Sample `["restore", null, "command", null, 0]`</br>
@@ -18,7 +18,7 @@ Sample `["restore", null, "command", null, 0]`</br>
   - Groups in toolbar button will be separated like: group0{menuitem1, menuitem3} | group1{menuitem2} | group2{menuitem0}
 - `order`:> The order of the preferences in `Option` will affect the sort order in the toolbar button
 
-##Website
+## Website
 Pattern `[ name, value, host, [ rules ] ]`</br>
 Sample `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.youku.com/*/v/swf/loader*.swf*"], ["player", "player.swf", 0, "http://static.youku.com/*/v/swf/*player*.swf*"], ["filter", 1, "http://*.atm.youku.com/v*?vip=*"] ]`</br>
 
@@ -34,7 +34,7 @@ Sample `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.
     - `secured`:> `1` to enable, `0` to disable, once enabled filter will be slower, but more compatible
     - `pattern`:> matching pattern of the target, could be regular expression or string with wildcard
 
-##Wrapper
+## Wrapper
 Pattern `[ type, major, [minor] ]`</br>
 Sample `[ "fileter", "youku", ["tudou"] ]`</br>
 
