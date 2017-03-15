@@ -11,7 +11,7 @@
 - 3) 下载并解压源代码到 X:\yyyyy\zzzzz
 - 4) 输入 `cd /d X:\yyyyy\zzzzz` 选择你展开源代码的文件夹
 - 5) 运行 `jpm xpi` 命令以创建扩展
-  - 1) 创建 my-addon.xpi 文件
+  - 1) 创建 my-addon.xpi 文件
     - 1) 基于 Add-ons SDK 的附加组件将自动生成 my-addon.xpi, 及 my-addon.update.rdf
     - 2) 传统旧式附加组件将只生成 null.xpi
   - 2) 将 my-addon.xpi(null.xpi) 上传至 AMO 获取签名
