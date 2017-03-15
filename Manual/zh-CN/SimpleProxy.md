@@ -1,8 +1,8 @@
-##注意
+## 注意
 
 - 用户自行承担风险
 
-##创建扩展
+## 创建扩展
 
 - 请阅读 [如何创建扩展](https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/HowToBuild.md)
 
