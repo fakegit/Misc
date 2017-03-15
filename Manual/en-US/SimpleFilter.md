@@ -11,7 +11,7 @@
 - 0) Simple Filter uses the new MatchPattern.jsm API
 - 1) Simple Filter Rule contains `Prefix`, `Sub-Prefix`, `Match Pattern`, `Suffix`, `Option String`
   - 1) About the Rules ![image](http://i66.tinypic.com/ztgdcn.png)
-    - 1) User can use <a href="https://goo.gl/vt6Jj4">Simple Converter</a> to convert Adblock Plus Rulelist
+    - 1) User can use [Simple Converter](https://github.com/jc3213/SimpleConverter) to convert Adblock Plus Rulelist
     - 2) `Prefix` $ determine Blocking Rule, `Prefix` > determine Redirect Rule, `Prefix` < determine Modify Headers Rule, `Prefix` # determine Proxy Rule
     - 3) `Sub-Prefix` ! to determine if the rule is to be matched, `Sub-Prefix` ? to determine if the rule is whitelisted
     - 4) `Prefix` ## to define the Proxy Server you want to use (follow the format of Simple Proxy)
