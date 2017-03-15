@@ -1,13 +1,13 @@
-##Caution
+## Caution
 
 - Use at your own risk
 - It will take some time to download the players after installation
 
-##How To Build
+## How To Build
 
 - Read [Build an Add-on](https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md)
 
-##About soWatch!
+## About soWatch!
 
 - soWatch! supports at least Firefox 10.0
 - soWatch! equivalent to the lesser function version of soWatch! mk2, which is seldom updated
@@ -15,11 +15,11 @@
 - If you want to use offline players, you have to download or update them manually
 - You can fork the source of soWatch! to make it act more like soWatch! mk2
 
-##About Rulelist
+## About Rulelist
 
 - Read [How to Write Rulelist](https://github.com/jc3213/Misc/blob/master/Manual/en-US/soWatch-mk2.rulelist.md)
 
-##How To Use
+## How To Use
 
 - `Restore Default`, restore all settings to default (some are not affected)
   - `Next Update Time`, `Defined Folder`, `Defined Server`
