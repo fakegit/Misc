@@ -11,7 +11,7 @@
 - 3) Download and Extract the source code to X:\yyyyy\zzzzz
 - 4) Enter `cd /d X:\yyyyy\zzzzz` to select the folder where you have extracted the source code
 - 5) Run `jpm xpi` command to build your add-on
-  - 1)
+  - 1) Build my-addon.xpi file
     - 1) Add-ons SDK based add-on will generate my-addon.xpi, and my-addon.update.rdf
     - 2) Legacy add-on will only generate null.xpi
   - 2) Upload my-addon.xpi(null.xpi) to AMO and get signed
