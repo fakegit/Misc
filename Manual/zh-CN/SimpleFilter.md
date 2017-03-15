@@ -13,10 +13,10 @@
 <p><img src="http://i66.tinypic.com/fvxl05.png"></p>
   - 1) 关于规则
     - 1) 用户可以使用 <a href="https://goo.gl/vt6Jj4">Simple Converter</a> 对 Adblock Plus 规则列表进行转换
-    - 2) `前缀` $ 决定 拦截规则, `前缀` > 决定 重定向规则, `前缀` < 决定 修改请求头规则, `前缀` # 决定 代理规则
-    - 3) `次前缀` ! 决定规则是否将要被匹配, `次前缀` ? 决定规则是否为白名单
-    - 4) `前缀` ## 将定义你所要使用的代理服务器 (请参考Simple Proxy服务器格式)
-    - 5) 阅读资料, 如何编写 [匹配模式](https://developer.mozilla.org/zh-CN/Add-ons/WebExtensions/Match_patterns)
+    - 2) `前缀` $ 决定 拦截规则, `前缀` > 决定 重定向规则, `前缀` < 决定 修改请求头规则, `前缀` # 决定 代理规则 
+    - 3) `次前缀` ! 决定规则是否将要被匹配, `次前缀` ? 决定规则是否为白名单 
+    - 4) `前缀` ## 将定义你所要使用的代理服务器 (请参考Simple Proxy服务器格式) 
+    - 5) 阅读资料, 如何编写 [匹配模式](https://developer.mozilla.org/zh-CN/Add-ons/WebExtensions/Match_patterns) 
     - 6) `后缀` # 仅适用于 拦截规则, 速度稍慢但是效果更好
     - 7) `后缀` ^ 仅适用于 重定向规则, 其意味着 重定向至
     - 8) `后缀` @ 仅适用于 修改请求头规则
