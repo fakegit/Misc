@@ -1,12 +1,12 @@
-##Caution
+## Caution
 
 - Use at your own risk
 
-##How To Build
+## How To Build
 
 - Read [Build an Add-on](https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md)
 
-##How to use
+## How to use
 
 - 0) Simple Proxy will not override proxy settings of Firefox 
 - 1) Simple Proxy is full compatibility with Auto Proxy Rulelist (branch ESR)
