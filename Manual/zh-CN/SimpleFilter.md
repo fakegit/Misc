@@ -8,10 +8,10 @@
 
 ## 使用说明
 
+
 - 0) Simple Filter 使用全新 MatchPattern.jsm API
 - 1) Simple Filter 规则包含 `前缀`, `次前缀`, `匹配对象`, `后缀`, `额外字符串`
-<p><img src="http://i66.tinypic.com/fvxl05.png"></p>
-  - 1) 关于规则
+  - 1) 关于规则<p><img src="http://i66.tinypic.com/fvxl05.png"></p>
     - 1) 用户可以使用 <a href="https://goo.gl/vt6Jj4">Simple Converter</a> 对 Adblock Plus 规则列表进行转换
     - 2) `前缀` $ 决定 拦截规则, `前缀` > 决定 重定向规则, `前缀` < 决定 修改请求头规则, `前缀` # 决定 代理规则 
     - 3) `次前缀` ! 决定规则是否将要被匹配, `次前缀` ? 决定规则是否为白名单 
