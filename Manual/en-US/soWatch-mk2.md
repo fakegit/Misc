@@ -22,7 +22,6 @@
 ## How To Use
 
 - `Report an Issue`,  Open issue report page on github for user feedback.
-- `Open User Manual`， Open user manual page on github to get info about the addon
 - `Restore Default`, restore all settings to default (some are not affected)
   - `Next Update Time`, `Defined Folder`, `Defined Server`
 - `Toolbar Button`, Add/remove the soWatch! mk2 button to/from the Toolbar
