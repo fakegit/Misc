@@ -1,10 +1,10 @@
-#How to Build an Add-on
+# How to Build an Add-on
 
-##Add-on Type
+## Add-on Type
 - Add-ons SDK based Add-ons contain package.json , and usually do not contain install.rdf or bootstrap.js
 - Legacy Add-ons does not contain package.json , but do contain install.rdf , and bootstrap.js for restartless add-ons
 
-##Build Guide
+## Build Guide
 - 1) Install `npm` (aka nodejs)
 - 2) Run Node.js command prompt
   - 2.1) Run `npm install jpm -global` to install jpm (currently 1.0.5)
@@ -19,16 +19,16 @@
   - 6.2) If it is a Legacy add-on, you must use `--xpi` argument to sign the null.xpi(or something else)
 - 7) You may need the .jpmignore to skip files that is not needed when you build an add-on
 
-#Something important
+# Important
 
-##Add-ons SDK based Add-ons
+## Add-ons SDK based Add-ons
 - 1) You must change the UUID of the add-on in package.json
 - 2) You must edit or delete the updateURL, updateLink, and updateKey keys in package.json
   - 2.1) If updateKey is defined, you have to edit the version and updateLink keys in [Update.rdf](https://raw.githubusercontent.com/jc3213/Misc/master/Sample/Update.rdf) and sign it with McCoy
 
 <p><img src="http://i66.tinypic.com/ml5abm.png"></p>
 
-##Legacy Add-ons
+## Legacy Add-ons
 - 1) You must change the UUID of the add-on in install.rdf
 - 2) You must edit or delete the updateURL key in install.rdf
 - 3) You must edit or delete the updateLink key in Update.rdf
