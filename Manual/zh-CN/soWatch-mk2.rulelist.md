@@ -1,4 +1,4 @@
-##Option
+## Option
 
 格式 `[name, value, type, reset, group]`</br>
 样例 `["restore", null, "command", null, 0]`</br>
@@ -18,7 +18,7 @@
   - 工具栏按钮中的菜单将被分割为: 小组0{菜单1, 菜单3} | 小组1{菜单2} | 小组2{菜单0}
 - `order`:> `Option` 中的设置的顺序将影响其在工具栏按钮中的顺序
 
-##Website
+## Website
 格式 `[ name, value, host, [ rules ] ]`</br>
 样例 `[ "youku", 0, "youku.com", [ ["player", "loader.swf", 0, "http://static.youku.com/*/v/swf/loader*.swf*"], ["player", "player.swf", 0, "http://static.youku.com/*/v/swf/*player*.swf*"], ["filter", 1, "http://*.atm.youku.com/v*?vip=*"] ]`</br>
 
@@ -34,7 +34,7 @@
     - `secured`:> `1` 启用, `0` 禁用, 若启用 过滤速度会变慢但兼容更好
     - `pattern`:> 匹配规则，可以是正则表达式，也可以是含有 * 的字符串
 
-##Wrapper
+## Wrapper
 格式 `[ type, major, [minor] ]`</br>
 样例 `[ "fileter", "youku", ["tudou"] ]`</br>
 
