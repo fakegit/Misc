@@ -1,13 +1,13 @@
-##注意
+## 注意
 
 - 用户自行承担风险
 - 初次安装时会花费一些时间用于下载播放器
 
-##创建扩展
+## 创建扩展
 
 - 请阅读 [如何创建扩展](https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/HowToBuild.md)
 
-##关于soWatch!
+## 关于soWatch!
 
 - soWatch! 支持最低 Firefox 10.0
 - soWatch! 等同于 soWatch! mk2 的劣化版本，版本更新也更缓慢
@@ -15,12 +15,14 @@
 - 如需使用离线播放器，你必须手动下载或更新播放器
 - 你可以修改 soWatch! 代码使其功能更接近于 soWatch! mk2
 
-##关于规则表
+## 关于规则表
 
 - 请阅读 [如何编写规则表](https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/soWatch-mk2.rulelist.md)
 
-##使用说明
+## 使用说明
 
+- `反馈问题故障`,  打开Github上的反馈页面以便于用户提交问题。
+- `阅读使用帮助`， 打开Github上的用户手册页面以便于用户了解本扩展。
 - `恢复初始值`, 将所有参数设置恢复至初始值 (部分不受影响)
   - `自定义文件夹`, `自定义服务器`
 - `工具栏按钮`, 可用于添加和取消 工具栏 上的 soWatch! mk2 按钮
