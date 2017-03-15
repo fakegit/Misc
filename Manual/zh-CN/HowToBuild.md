@@ -1,10 +1,10 @@
-#如何创建扩展
+# 如何创建扩展
 
-##扩展类型
+## 扩展类型
 - 基于 Add-ons SDK 的附加组件包含 package.json 文件, 并且一般不包含 install.rdf 与 bootstrap.js 文件
 - 传统旧式附加组件不包含 package.json 文件, 而且一般默认包含 install.rdf 文件, 无需重启的扩展包含 bootstrap.js 文件
 
-##操作步骤
+## 操作步骤
 - 1) 安装`npm` (别称 nodejs)
 - 2) 运行 Node.js command prompt
   - 2.1) 运行 `npm install jpm -global` 以安装 jpm (目前 1.0.5)
@@ -19,16 +19,16 @@
   - 6.2) 传统旧式附加组件必须添加 `--xpi` 命令行参数来签名 null.xpi(或其他xpi文件)
 - 7) 你可能需要 .jpmignore 以跳过一些创建扩展时不必要的文件
 
-#重要说明
+# 重要说明
 
-##基于 Add-ons SDK 的 附加组件
+## 基于 Add-ons SDK 的 附加组件
 - 1) 你必须修改 package.json 中的 UUID
 - 2) 你必须修改或删除 package.json 中的 updateURL, updateLink, updateKey 键值
   - 2.1) 如果使用 updateKey, 你必须参考 [Update.rdf](https://raw.githubusercontent.com/jc3213/Misc/master/Sample/Update.rdf) 修改 version 和 updateLink 后再用 McCoy 签名
 
 <p><img src="http://i66.tinypic.com/ml5abm.png"></p>
 
-##旧式 附加组件
+## 旧式 附加组件
 - 1) 你必须修改 install.rdf 中的 UUID
 - 2) 你必须修改或删除 install.rdf 中的 updateURL 键值
 - 3) 你必须修改或删除 update.rdf 中的 updateLink 键值
