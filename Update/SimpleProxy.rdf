@@ -1,21 +1,30 @@
-<?xml version="1.0"?>
-<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
-         xmlns:NC="http://home.netscape.com/NC-rdf#"
-         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="rdf:#$3PHLE3"
-                   em:version="2.2.2">
-    <em:targetApplication RDF:resource="rdf:#$6PHLE3"/>
-  </RDF:Description>
-  <RDF:Seq RDF:about="rdf:#$2PHLE3">
-    <RDF:li RDF:resource="rdf:#$3PHLE3"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="urn:mozilla:extension:simpleproxy@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAK2uAvRVeu8W4lQT8OMf/en4MyQqwcNZfoCdjgU6WHeJdUpWt9gKPul+LoKXgDX3BWMY49Ok6blbiWb38kpphwacIkiyQoYgAMpuNYW77HHO2JLeFEwfkkQc9yp4QdWMjgv3X0wz7tcc2EMke/zBkrOR9hWPbsLGuXskwxx9ZSQN">
-    <em:updates RDF:resource="rdf:#$2PHLE3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$6PHLE3"
-                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   em:minVersion="41.0a1"
-                   em:maxVersion="45.*"
-                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/2.2.2/simple_proxy-2.2.2-fx.xpi" />
-</RDF:RDF>
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:extension:simpleconverter@jc3213.github">
+        <em:updates>
+            <Seq>
+                <li>
+                    <Description>
+                          <em:version>1.4.0</em:version>
+
+                          <em:targetApplication>
+                            <Description>
+                              <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                              <em:minVersion>38.0a1</em:minVersion>
+                              <em:maxVersion>*</em:maxVersion>
+                              <em:updateLink>https://github.com/jc3213/SimpleConverter/releases/download/1.4.0/simple_converter-1.4.0-fx.xpi</em:updateLink>
+</Description>
+</em:targetApplication>
+
+
+                    </Description>
+
+                </li>
+
+            </Seq>
+
+        </em:updates>
+
+    </Description>
+
+</RDF>
