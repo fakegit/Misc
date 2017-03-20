@@ -10,7 +10,7 @@
                           <em:targetApplication>
                             <Description>
                               <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-                              <em:minVersion>41.0a1</em:minVersion>
+                              <em:minVersion>41.0</em:minVersion>
                               <em:maxVersion>*</em:maxVersion>
                               <em:updateLink>https://github.com/jc3213/SimpleFilter/releases/download/1.6.0/simple_filter-1.6.0-fx.xpi</em:updateLink>
 </Description>
