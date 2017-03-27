@@ -13,11 +13,10 @@
   - 1) 支持base64编码的文件
 - 2) 服务器必须满足 类型::地址::端口 的格式
   - 1) 例如 `socks::127.0.0.1::1080`
-  - 2) 支持的协议类型 `http`, `socks`, `socks4`, `direct`
+  - 2) 支持的协议类型 `http`, `socks`, `socks4`
     - 1) `http`, HTTP 及 HTTPS 协议
     - 2) `socks`, SOCKS V5 协议
     - 3) `socks4`, SOCKS V4 协议
-    - 4) `direct`, 直连
 - 3) 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则
   - 1) 例如 [GFWList](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt) (分支 ESR)
   - 2) 订阅规则每4天自动更新一次
