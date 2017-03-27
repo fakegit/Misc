@@ -20,7 +20,7 @@
 - 3) 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则
   - 1) 例如 [GFWList](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt) (分支 ESR)
   - 2) 订阅规则每4天自动更新一次
-  - 3) 规则仅支持`.txt`和`.ini`后缀
+  - 3) 规则仅支持`.txt`和`.ini`后缀
 - 4) 可以通过 about:addons 设置界面的 `浏览...` 按钮来指定绝对路径中的文件
 - 5) 可以通过 `file.txt` 来访问相对路径 Profile\SimpleProxy\file.txt 中的规则
 - 6) 可以通过点击`编辑`来修改你的规则
