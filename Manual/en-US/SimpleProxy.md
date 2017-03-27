@@ -9,14 +9,14 @@
 ## How to use
 
 - 0) Simple Proxy will not override proxy settings of Firefox 
-- 1) Simple Proxy is full compatibility with Auto Proxy Rulelist (branch ESR)
-  - 1) Compatible with base64 encoding
-- 2) Server must match the form of protocol::address::port
-  - 1) For example, socks::127.0.0.1::1080
-  - 2) Supported protocol: http, socks, socks4
-    - 1) http support both HTTP and HTTPS protocol
-    - 2) socks support SOCKS V5 protocol
-    - 3) socks4 support SOCKS V4 protocol
+- 1) Simple Proxy is fully compatible with Auto Proxy Rulelist
+  - 1) Support file encoded by base64
+- 2) To define a proxy server, you'd use `protocol::address::port`
+  - 1) For example, `socks::127.0.0.1::1080`
+  - 2) Supported protocol: `http`, `socks`, `socks4`
+    - 1) `http`, both HTTP and HTTPS protocol
+    - 2) `socks`, SOCKS V5 protocol
+    - 3) `socks4`, SOCKS V4 protocol
 - 3) Use remote address http:// or https:// to subscribe proxy list
   - 1) For example, [GFWList](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt) (branch ESR)
   - 2) Subscription(s) will be updated in 4 days
