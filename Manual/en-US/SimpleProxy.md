@@ -20,7 +20,7 @@
 - 3) Use remote address http:// or https:// to subscribe proxy list
   - 1) For example, [GFWList](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt) (branch ESR)
   - 2) Subscription(s) will be updated in 4 days
-  - 3) Support both `.txt` and `.ini` extensions
+  - 3) Support both `.txt` and `.ini` extensions
 - 4) User can address absolute path using `Browse...` button in about:addons
 - 5) User can address relative path using file.txt to access the rulelist in Profile\SimpleProxy\file.txt
 - 6) User can modify the rules by click `Edit`
