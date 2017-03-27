@@ -22,7 +22,7 @@
   - 2) Subscription(s) will be updated in 4 days
   - 3) Support both `.txt` and `.ini` extensions
 - 4) User can address absolute path using `Browse...` button in about:addons
-- 5) User can address relative path using file.txt to access the rulelist in Profile\SimpleProxy\file.txt
+- 5) User can address relative path using `file.txt` to access Profile\SimpleProxy\file.txt
 - 6) User can modify the rules by click `Edit`
   - 1) User need to click `Save` if any modification has been done
   - 2) Don't support Firefox Android and Thunderbird
