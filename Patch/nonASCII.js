@@ -15,29 +15,25 @@ function onPreferenceChanged() {
   this.valueFromPreference();
 }
 
-function objectToString(object) {
+function functionToString(object) {
   return "(" + object.toString() + ").call(this);";
 }
 
-var patchQuery = ["setting[type=directory]", "setting[type=file]", "setting[type=string]"];
-var patchEvent = objectToString(onPreferenceChanged);
+function eventListener(event) {
+  if (event.data != id) return;
 
-function patchListener(event) {
-  if (event.data == id) {
-    var document = event.subject;
-    var elements = document.querySelectorAll(patchQuery.join(","));
-    for (var i in elements) {
-      var element = elements[i];
-      if (typeof element === "object") {
-        element.setAttribute("onpreferencechanged", patchEvent);
-      }
+  var document = event.subject;
+  var array = document.querySelectorAll("setting[type=directory],setting[type=file],setting[type=string]");
+  array.forEach(function (option) {
+    if (typeof option === "object") {
+      option.setAttribute("onpreferencechanged", functionToString(onPreferenceChanged));
     }
-  }
+  });
 }
 
-exports.startup = function () {
-  events.on("addon-options-displayed", patchListener);
+exports.on = function () {
+  events.on("addon-options-displayed", eventListener);
 };
-exports.shutdown = function () {
-  events.off("addon-options-displayed", patchListener);
+exports.off = function () {
+  events.off("addon-options-displayed", eventListener);
 };
