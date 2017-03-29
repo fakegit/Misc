@@ -15,7 +15,7 @@ function onPreferenceChanged() {
   this.valueFromPreference();
 }
 
-function functionToString(object) {
+function objectToString(object) {
   return "(" + object.toString() + ").call(this);";
 }
 
@@ -26,7 +26,7 @@ function eventListener(event) {
   var array = document.querySelectorAll("setting[type=directory],setting[type=file],setting[type=string]");
   array.forEach(function (option) {
     if (typeof option === "object") {
-      option.setAttribute("onpreferencechanged", functionToString(onPreferenceChanged));
+      option.setAttribute("onpreferencechanged", objectToString(onPreferenceChanged));
     }
   });
 }
