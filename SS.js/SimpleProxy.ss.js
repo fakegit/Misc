@@ -8,13 +8,13 @@ exports.off = shutdown;
 var {Cc, Ci, Cr, Cu} = require('chrome')
 var {TextDecoder, OS} = Cu.import("resource://gre/modules/osfile.jsm", {});
 var {Downloads} = Cu.import("resource://gre/modules/Downloads.jsm", {});
+var window = require('sdk/window/utils').getMostRecentBrowserWindow("navigator:browser");
 
 var Storage = {};
 
 var Services = {
   pps: Cc["@mozilla.org/network/protocol-proxy-service;1"].getService(Ci.nsIProtocolProxyService),
-  prefs: Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefService).QueryInterface(Ci.nsIPrefBranch),
-  wm: Cc["@mozilla.org/appshell/window-mediator;1"].getService(Ci.nsIWindowMediator)
+  prefs: Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefService).QueryInterface(Ci.nsIPrefBranch)
 };
 
 var FileIO = {
@@ -163,7 +163,6 @@ var Core = {
     storage.white = [], storage.match = [];
 
     try {
-      var window = wm.getMostRecentWindow("navigator:browser");
       var list = window.atob(storage.buffer).split(/[\r\n]+/);
     }
     catch (e) {
