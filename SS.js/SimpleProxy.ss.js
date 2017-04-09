@@ -1,5 +1,10 @@
 "use strict";
 
+exports.version = "1.0";  //not functional now
+exports.update = "https://raw.githubusercontent.com/jc3213/Misc/master/SS.js/SimpleProxy.ss";  //not functional now
+exports.on = startup;
+exports.off = shutdown;
+
 var { Cc, Ci, Cr, Cu } = require('chrome')
 var {TextDecoder, OS} = Cu.import("resource://gre/modules/osfile.jsm", {});
 var {Downloads} = Cu.import("resource://gre/modules/Downloads.jsm", {});
@@ -289,12 +294,12 @@ var Proxy = {
   }
 };
 
-exports.on = function () {
+function startup() {
   Events.on();
   Proxy.on();
 }
 
-exports.off = function () {
+function shutdown() {
   Events.off();
   Proxy.off();
 }
