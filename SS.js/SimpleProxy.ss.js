@@ -1,7 +1,6 @@
 "use strict";
 
-exports.version = "1.0";  //not functional
-exports.update = "https://raw.githubusercontent.com/jc3213/Misc/master/SS.js/SimpleProxy.ss";  //not functional
+exports.version = "1.0.0";  //not functional
 exports.on = startup;
 exports.off = shutdown;
 
