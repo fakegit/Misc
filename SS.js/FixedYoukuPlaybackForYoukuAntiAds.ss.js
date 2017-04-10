@@ -1,7 +1,6 @@
 "use strict";
 
 exports.version = "1.0.1";  //not functional
-exports.update = "https://raw.githubusercontent.com/jc3213/Misc/master/SS.js/SimpleProxy.ss";  //not functional
 exports.on = youkuStyleSheet;
 
 var PageMod = require("sdk/page-mod");
