@@ -128,7 +128,8 @@ var Pattern = {
   encode: function (data) {
     if (typeof data == "string") {
       return Pattern.makeRegExp(data);
-    } else {
+    }
+    else {
       return data;
     }	
   }	
@@ -147,18 +148,22 @@ var Preferences = {
   getValue: function (branch) {
     if (branch.type == "boolean") {
       return Preferences.prefs.getBoolPref(branch.name);
-    } else if (branch.type == "integer") {
+    }
+    else if (branch.type == "integer") {
       return Preferences.prefs.getIntPref(branch.name);
-    } else if (branch.type == "string") {
+    }
+    else if (branch.type == "string") {
       return Preferences.prefs.getComplexValue(branch.name, Ci.nsISupportsString).data;
     }
   },
   setValue: function (branch, value) {
     if (branch.type == "boolean") {
       Preferences.prefs.setBoolPref(branch.name, value);
-    } else if (branch.type == "integer") {
+    }
+    else if (branch.type == "integer") {
       Preferences.prefs.setIntPref(branch.name, value);
-    } else if (branch.type == "string") {
+    }
+    else if (branch.type == "string") {
       var character = Cc["@mozilla.org/supports-string;1"].createInstance(Ci.nsISupportsString);
       character.data = value;
       Preferences.prefs.setComplexValue(branch.name, Ci.nsISupportsString, character);
@@ -221,10 +226,10 @@ var Core = {
     });
 
     Rulelist.website.forEach(function (element, index, array) {
-      var name = element[0], value = element[1], address = element[2], option = element[3];
+      var name = element[0], value = element[1], host = element[2], option = element[3];
       Storage.website[name] = {
         prefs: {name: name, type: "integer", value: value},
-        host: address,
+        host: host,
         option: option
       };
     });
@@ -261,7 +266,8 @@ var Events = {
 
         if (mode == 1) {
           var offline, online = offline = player;
-        } else {
+        }
+        else {
           var path = FileIO.joinPath(Storage.file.folder, player), offline = FileIO.toURI(path), online = Storage.file.server + player;
           queue.push([online, path]);
         }
@@ -272,7 +278,8 @@ var Events = {
           online: online,
           pattern: Pattern.encode(string)
         };
-      } else if (type == "filter") {
+      }
+      else if (type == "filter") {
         var mode = element[1], string = element[2];
 
         Storage.filter[param] = {
@@ -296,9 +303,11 @@ var Events = {
 
       try {
         Preferences.getValue(website.prefs);
-      } catch (e) {
+      }
+      catch (e) {
         Preferences.resetValue(website.prefs);
-      } finally {
+      }
+      finally {
         website.value = Preferences.getValue(website.prefs);
       }
 
@@ -311,7 +320,8 @@ var Events = {
         website.hasPlayer = true;
         if (website.value == 1) {
           Storage.player[i].enabled = true;
-        } else {
+        }
+        else {
           Storage.player[i].enabled = false;
         }
       }
@@ -323,7 +333,8 @@ var Events = {
         website.hasFilter = true;
         if (website.value == 2) {
           Storage.filter[x].enabled = true;
-        } else {
+        }
+        else {
           Storage.filter[x].enabled = false;
         }
       }
@@ -335,9 +346,11 @@ var Events = {
     for (var i in Storage.option.config) {
       try {
         Preferences.getValue(Storage.option.config[i].prefs);
-      } catch (e) {
+      }
+      catch (e) {
         Preferences.resetValue(Storage.option.config[i].prefs);
-      } finally {
+      }
+      finally {
         Storage.option.config[i].value = Preferences.getValue(Storage.option.config[i].prefs);
       }
     }
