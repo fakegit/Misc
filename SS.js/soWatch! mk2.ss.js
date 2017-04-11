@@ -1,10 +1,14 @@
 "use strict";
 
-exports.version = "1.0.0";
+/*
+version: 20170411-1613
+require: 1.0.0
+*/
 exports.on = startup;
 exports.off = shutdown;
 
 var {Cc, Ci, Cr, Cu} = require('chrome');
+var Locales = require("sdk/l10n").get;
 var {NetUtil} = Cu.import("resource://gre/modules/NetUtil.jsm", {});
 var {OS} = Cu.import("resource://gre/modules/osfile.jsm", {});
 var {Downloads} = Cu.import("resource://gre/modules/Downloads.jsm", {});
@@ -580,7 +584,7 @@ var Toolbar = {
 
       var menu = document.createElement("menu")
       menu.setAttribute("id", "sowatchmk2-" + i);
-      menu.setAttribute("label", i);
+      menu.setAttribute("label", Locales("sowatchmk2-" + i));
       menu.setAttribute("class", "menu-iconic");
       popup.appendChild(menu);
 
@@ -593,7 +597,7 @@ var Toolbar = {
       var item = document.createElement("menuitem");
       item.setAttribute("id", "sowatchmk2-" + name);
       item.setAttribute("class", "menuitem-iconic");
-      item.setAttribute("label", name);
+      item.setAttribute("label", Locales("sowatchmk2-" + name));
       if (type == "boolean") {
         item.setAttribute("type", "checkbox");
       }
@@ -609,7 +613,7 @@ var Toolbar = {
     item.forEach(function (element, index, array) {
       var item = document.createElement("menuitem");
       item.setAttribute("id", "sowatchmk2-" + name + "-" + element);
-      item.setAttribute("label", name + element);
+      item.setAttribute("label", Locales("sowatchmk2-" + element));
       item.setAttribute("type", "radio");
       if (!player && element == "player") {
         item.setAttribute("disabled", "true");
