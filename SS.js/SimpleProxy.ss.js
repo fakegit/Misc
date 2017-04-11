@@ -1,6 +1,9 @@
 "use strict";
 
-exports.version = "1.0.0";  //not functional
+/*
+version: 20170411-1613
+require: 1.0.0
+*/
 exports.on = startup;
 exports.off = shutdown;
 
