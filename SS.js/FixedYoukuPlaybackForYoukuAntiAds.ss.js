@@ -1,11 +1,13 @@
 "use strict";
 
-exports.version = "1.0.0";  //not functional
-exports.on = youkuStyleSheet;
+/*
+version: 20170411-1613
+require: 1.0.1
+*/
+exports.on = startup;
 
-var PageMod = require("sdk/page-mod");
-
-function youkuStyleSheet() {
+function startup() {
+  var PageMod = require("sdk/page-mod");
   PageMod.PageMod({
     include: "*.youku.com",
     contentStyle: ""
