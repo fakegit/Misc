@@ -2,7 +2,7 @@
 
 /*
 version: 20170411-1613
-require: 1.0.0
+require: 1.0.2
 */
 exports.on = startup;
 exports.off = shutdown;
