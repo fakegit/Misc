@@ -1,3 +1,5 @@
+"use strict";
+
 /*
 version: 20170412-0317
 require: 1.0.0
