@@ -1,40 +1,21 @@
 # How to Build an Add-on
 
-## Add-on Type
-- Add-ons SDK based Add-ons contain package.json , and usually do not contain install.rdf or bootstrap.js
-- Legacy Add-ons does not contain package.json , but do contain install.rdf , and bootstrap.js for restartless add-ons
+## Preparation
+Install [npm](https://nodejs.org/download/release/latest/), `.msi` install package is recommended
 
 ## Build Guide
-- 1) Install `npm` (aka nodejs)
-- 2) Run Node.js command prompt
+- 1) Run Node.js command prompt
   - 1) Run `npm install jpm -global` to install jpm (currently 1.0.5)
-- 3) Download and Extract the source code to X:\yyyyy\zzzzz
-- 4) Enter `cd /d X:\yyyyy\zzzzz` to select the folder where you have extracted the source code
-- 5) Run `jpm xpi` command to build your add-on
-  - 1) Build my-addon.xpi file
-    - 1) Add-ons SDK based add-on will generate my-addon.xpi, and my-addon.update.rdf
-    - 2) Legacy add-on will only generate null.xpi
-  - 2) Upload my-addon.xpi(null.xpi) to AMO and get signed
-- 6) Run `jpm sign` command to build and sign your add-on
-  - 1) If it is an Add-ons SDK based add-on, you can skip Step 5)
-  - 2) If it is a Legacy add-on, you must use `--xpi` argument to sign the null.xpi(or something else)
-- 7) You may need the .jpmignore to skip files that is not needed when you build an add-on
-
-# Important
-
-## Add-ons SDK based Add-ons
-- 1) You must change the UUID of the add-on in package.json
-- 2) You must edit or delete the updateURL, updateLink, and updateKey keys in package.json
-  - 1) If updateKey is defined, you have to edit the version and updateLink keys in [Update.rdf](https://raw.githubusercontent.com/jc3213/Misc/master/Sample/Update.rdf) and sign it with McCoy
-
-<p><img src="http://i66.tinypic.com/ml5abm.png"></p>
-
-## Legacy Add-ons
-- 1) You must change the UUID of the add-on in install.rdf
-- 2) You must edit or delete the updateURL key in install.rdf
-- 3) You must edit or delete the updateLink key in Update.rdf
-- 4) updateKey key in install.rdf and signature key in update.rdf are signed by McCoy
-  - 1) If you upload the .xpi files to a host over SSL, there's no need to use McCoy
-
-<p><img src="http://i68.tinypic.com/29zzcpv.png"></p>
-<p><img src="http://i67.tinypic.com/6944dl.png"></p>
+  - 2) Download and Extract the source code to X:\yyyyy\zzzzz
+  - 3) Enter `cd /d X:\yyyyy\zzzzz` to select the folder where you have extracted the source code
+  - 4) Run `jpm xpi` command to build `.xpi`
+    - 1) Add-ons SDK add-ons will generate my-addon.xpi, and my-addon.update.rdf
+    - 2) Legacy add-ons will only generate null.xpi
+  - 5) Upload `.xpi` to AMO and get signed
+  - 6) Run `jpm sign` command to build and sign your add-on
+    - 1) Use `--xpi` argument to sign `.xpi` you would like to
+    - 2) Add-ons SDK add-ons could skip `jpm xpi`
+  - 7) You may need the .jpmignore to skip files that is not needed when you build an add-on
+- 2) Run `make.cmd` to build the add-on
+  - 1) If `jpm` is not installed, it will automatically install `jpm`
+  - 2) Some repositories don't have `make.cmd`
