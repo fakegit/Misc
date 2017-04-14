@@ -13,7 +13,7 @@ Install [npm](https://nodejs.org/download/release/latest/), `.msi` install packa
     - 2) Legacy add-ons will only generate null.xpi
   - 5) Upload `.xpi` to AMO and get signed
   - 6) Run `jpm sign` command to build and sign your add-on
-    - 1) Use `--xpi` argument to sign `.xpi` you would like to
+    - 1) Use `--xpi` argument to sign `.xpi` you would like to
     - 2) Add-ons SDK add-ons could skip `jpm xpi`
   - 7) You may need the .jpmignore to skip files that is not needed when you build an add-on
 - 2) Run `make.cmd` to build the add-on
