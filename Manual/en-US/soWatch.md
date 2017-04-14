@@ -14,7 +14,7 @@
 ## How To Use
 
 - `Restore Default`, restore all settings to default (some are not affected)
-  - `Next Update Time`, `Defined Folder`, `Defined Server`
+  - `Defined Folder`, `Defined Server`
 - `Update Interval`, auto update the player during time being
 - `Update Player`, update the latest players immediately
 - `Manage Player`, open the folder that contains the player files.
