@@ -9,7 +9,7 @@
 
 ## About Rulelist
 
-- Read [How to Write Rulelist](https://github.com/jc3213/Misc/blob/master/Manual/en-US/soWatch-mk2.rulelist.md)
+- Read [How to Write Rulelist](https://github.com/jc3213/Misc/blob/master/Manual/en-US/soWatch.rulelist.md)
 
 ## How To Use
 
