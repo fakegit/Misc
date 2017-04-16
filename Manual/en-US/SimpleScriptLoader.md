@@ -8,7 +8,7 @@
 
 ## Development
 
-- [Add-ons SDK](https://developer.mozilla.org/zh-CN/Add-ons/SDK)
+- [Add-ons SDK](https://developer.mozilla.org/en-US/Add-ons/SDK)
 - [Javascript code modules](https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules)
 
 ## Samples
