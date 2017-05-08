@@ -1,7 +1,7 @@
 "use strict";
 
 /*
-version: 20170411-1613
+version: 20170508-1408
 require: 1.0.2
 */
 exports.on = startup;
@@ -69,8 +69,7 @@ var Rulelist = {
       0,
       "le.com",
       [
-        ["player", 0, "letv.swf", /https?:\/\/player\.letvcdn\.com\/([^\/]+\/){4,6}newplayer\/(SDK)?LetvPlayer\.swf/i],
-        ["player", 1, "http://www.le.com/cmsdata/playerapi/pccs_sdk_20141113.xml", /https?:\/\/www\.le\.com\/cmsdata\/playerapi\/pccs_(PlayerSDK|LiveSDK|main).*\.xml/i],
+        ["player", 0, "letvsdk.swf", /https?:\/\/player\.letvcdn\.com\/.*\/newplayer\/LetvPlayerSDK\.swf/i],
         ["filter", 0, /https?:\/\/(\d+\.){3}(\d+\/){4}letv-gug\/[^\/]+\/ver_.+avc.+aac.+\.mp4/i]
       ]
     ],
