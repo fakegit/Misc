@@ -1,7 +1,7 @@
 "use strict";
 
 /*
-version: 20170412-0317
+version: 20170508-1408
 require: 1.0.0
 */
 exports.on = function () {
@@ -66,12 +66,8 @@ AntiChinaVideoAds.prototype = {
                 're': /https?:\/\/js\.tudouui\.com\/.*\/socialplayer[^\.]*\.swf/i
             },
             'letv': {
-                'player': host + 'letv.swf',
-                're': /https?:\/\/.*\.letv(cdn)?\.com\/.*(new)?player\/((SDK)?Letv|swf)Player\.swf/i
-            },
-            'letvpccs': {
-                'player': 'http://www.le.com/cmsdata/playerapi/pccs_sdk_20141113.xml',
-                're': /https?:\/\/www\.le(tv)?\.com\/.*\/playerapi\/pccs_(?!(.*live|sdk)).*_?(\d+)\.xml/i
+                'player': host + 'letvsdk.swf',
+                're': /https?:\/\/player\.letvcdn\.com\/.*\/newplayer\/LetvPlayerSDK\.swf/i
             },
             'letv_live': {
                 'player': host + 'letv.in.Live.swf',
